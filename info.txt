@@ -1,0 +1,6 @@
+selected resource name:		onprem_to_sql
+selected resource type:		pipeline
+factory name:			nikhiladf85199
+factory location:		australiaeast
+subscription id:		fa17aa6b-9785-4f43-96ee-d7702708bfdc
+time of download (UTC):		Thu, 24 Sep 2026 03:43:30 GMT

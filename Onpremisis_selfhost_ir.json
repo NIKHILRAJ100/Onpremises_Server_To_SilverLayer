@@ -1,0 +1,21 @@
+{
+    "name": "Onpremisis_selfhost_ir",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "SqlServer",
+        "typeProperties": {
+            "server": "NIKHIL\\AJA",
+            "database": "AdventureWorks2025",
+            "encrypt": "mandatory",
+            "trustServerCertificate": true,
+            "authenticationType": "SQL",
+            "userName": "aja",
+            "encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiODk1MDk0OS1lMTg3LTQ2ZjMtYjI0Mi04NmM5MzZlYTc5MmUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+        },
+        "connectVia": {
+            "referenceName": "SELFHOSTIR",
+            "type": "IntegrationRuntimeReference"
+        }
+    }
+}

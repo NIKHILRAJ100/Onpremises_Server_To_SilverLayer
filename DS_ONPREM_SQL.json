@@ -1,0 +1,16 @@
+{
+    "name": "DS_ONPREM_SQL",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "Onpremisis_selfhost_ir",
+            "type": "LinkedServiceReference"
+        },
+        "folder": {
+            "name": "onprem"
+        },
+        "annotations": [],
+        "type": "SqlServerTable",
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
